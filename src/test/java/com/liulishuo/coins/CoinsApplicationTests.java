@@ -29,12 +29,11 @@ public class CoinsApplicationTests {
 
     @Test
     public void coinsAdd(){
-        Coins coinsObject = new Coins();
+        /*Coins coinsObject = new Coins();
         coinsObject.setUser_id(new BigInteger("22"));
         coinsObject.setCoins(12);
-        coinsRepository.save(coinsObject);
+        coinsRepository.save(coinsObject);*/
     }
-
 
     @Test
     public void coinsFindByUserId(){

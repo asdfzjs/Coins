@@ -1,0 +1,13 @@
+# Version 0.1
+
+# 基础镜像
+FROM centos:latest
+
+# 维护者信息
+MAINTAINER 15921952463@163.com
+
+# 镜像操作命令
+RUN yum install -y mysql-server
+
+# 容器启动命令
+./demo-project.sh

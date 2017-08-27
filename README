@@ -1,0 +1,3 @@
+框架选型：springboot+jpa
+启动脚本：demo-project.sh  --JARPath,需要改成你自己的jar包位置
+test.png: 测试覆盖率统计截图
